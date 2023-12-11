@@ -1,0 +1,19 @@
+{
+  "name": "dino",
+  "version": "1.0.0",
+  "description": "Динозаврик бегает игра",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonOleg/Dino.git"
+  },
+  "author": "Киреев Олег",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragonOleg/Dino/issues"
+  },
+  "homepage": "https://github.com/DragonOleg/Dino#readme"
+}

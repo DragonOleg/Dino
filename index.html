@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dino</title>
-    <link rel="stylesheet" href="css/dino.css">
-    <script src="src/dino.js"></script>
+    <link rel="stylesheet" href="css/dino.css">    
 </head>
 
 <body>
-    <h1>Игра динозаврик</h1>
-    <canvas id="board"></canvas>
+    <div id="game">
+		<div class="game-header">
+			<div class="game-score">
+				<span class="score-count">1234</span>
+			</div>
+		</div>
+		<div class="canvas-wrapper">
+		</div>
+	</div>
+
+    <script src="src/game.js" type="module"></script>
 </body>
 
 </html>
